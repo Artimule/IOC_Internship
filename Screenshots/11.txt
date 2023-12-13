@@ -1,0 +1,22 @@
+m pavanwankhade4u pavanwankhade4u to everyone:
+https://edu.google.com/programs/?modal_active=none
+
+https://docs.google.com/document/d/16WutIe675ZPHzb0shEU_A456xA0IxGf0pBFcxUk2yEQ/edit
+
+Detailed steps for openstack : 
+1. download virtual box
+2. goto google drive link (2nd line) in this document and download the open-stack and extract it
+3. now you can see centos-openstack (Blue logo) so, open using Virtual box
+4. now enter the username and password as openstack
+5. next In the console, run the following command: sudo dhclient enp0s3
+6. next if it asks for any password enter the same password which you have given above
+7. now run this command : ifconfig and check if you have obtained the 10.0.2.15
+8. now this is very important step
+9. run this command : systemctl start httpd
+10. if asks for password - same password
+11. run this command : systemctl enable httpd
+12. till now all steps are completed but, do not close the virtual box and openstack.
+13. open incognito in chrome enter : http://localhost:8888 
+14. username : admin and password open stack
+
+https://aws.amazon.com/about-aws/global-infrastructure/#:~:text=The%20AWS%20Global%20Cloud%20Infrastructure,services%20from%20data%20centers%20globally.&text=With%20millions%20of%20active%20customers,largest%20and%20most%20dynamic%20ecosystem.
